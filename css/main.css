@@ -5,7 +5,7 @@ body {
 
 .emojis {
   display: grid;
-  grid-template-columns: repeat(2, 417px);
+  grid-template-columns: repeat(2,25%);
   gap: 1.5em;
 }
 
