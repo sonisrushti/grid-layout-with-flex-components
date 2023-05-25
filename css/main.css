@@ -3,12 +3,15 @@ body {
   color: #222;
 }
 
+/* Layout styles for cards */
 .emojis {
   display: grid;
-  grid-template-columns: repeat(2,25%);
   gap: 1.5em;
+  grid-template-columns: repeat(2,25%);
+ 
 }
 
+/* Styles for Card content */
 .emoji {
   border: 1px solid #222;
   border-radius: 8px;
@@ -36,6 +39,7 @@ body {
 
 }
 
+/* Styles for icon */
 .icon {
   font-size: 3rem;
   order: -1;
